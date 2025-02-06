@@ -9,6 +9,11 @@ public class Main {
         String name = nameComplet.substring(nameComplet.indexOf(" ") + 1);
         System.out.println("Nom:" + name + " \nPrénom:" + prenom);
         System.out.println("Nom :" + name + " " + prenom.charAt(0)+".");
+        for (int i = nameComplet.length()-1; i >0 ; i--) {
+
+            System.out.print(nameComplet.charAt(i)+" ");
+
+        }
 
     }
 }
